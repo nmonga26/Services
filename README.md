@@ -1,40 +1,32 @@
 # ONDC Services
 
-This repository contains microservices and APIs for ONDC implementation.
+This repository contains all ONDC service components as shown in the architecture.
 
-## Services Include:
-- Authentication Service
-- Registry Service  
-- Gateway Service
-- Logging Service
-- Monitoring Service
+## Services Structure
+
+### Core Services
+- **CAAS**: Certificate Authority and Authentication Service
+- **NP Portal**: Network Participant Portal
+- **Portal Backend**: Backend services for portals
+- **Portal Frontend**: Frontend applications for portals
+- **Developer Portal**: Portal for developers
+- **Registry**: ONDC Registry Service
+- **Gateway**: ONDC Gateway Service
+- **NO**: Network Operations
+
+### Data Services
+- **Open Data**: Open data access services
+
+### Certification Services
+- **pramaan-beta**: Beta version of certification service
+- **pramaan-ui**: UI for certification service
 
 ## Getting Started
 
-### Prerequisites
-- Docker and Docker Compose
-- Node.js 18+ / Python 3.8+ / Java 11+ (depending on service)
-- MongoDB / PostgreSQL (for data persistence)
-
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/nmonga26/Services.git
-cd Services
-
-# Start all services using Docker Compose
-docker-compose up -d
-```
-
-## Service Architecture
-
-Each service follows a microservices architecture pattern with:
-- RESTful APIs
-- Event-driven communication
-- Containerized deployment
-- Independent scaling
+Each service directory contains its own README with specific setup instructions.
 
 ## Related Repositories
-- [ONDC-Specifications](https://github.com/nmonga26/ONDC-Specifications)
+- [Specification](https://github.com/nmonga26/Specification)
 - [Workbench](https://github.com/nmonga26/Workbench)
-- [SDKs-and-Utilities](https://github.com/nmonga26/SDKs-and-Utilities)
+- [SDKs-Packages-and-Utilities](https://github.com/nmonga26/SDKs-Packages-and-Utilities)
+- [Reference-and-SDKs-Services](https://github.com/nmonga26/Reference-and-SDKs-Services)
