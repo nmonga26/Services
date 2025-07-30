@@ -7,8 +7,6 @@ This repository contains all ONDC service components as shown in the architectur
 ### Core Services
 - **CAAS**: Certificate Authority and Authentication Service
 - **NP Portal**: Network Participant Portal
-- **Portal Backend**: Backend services for portals
-- **Portal Frontend**: Frontend applications for portals
 - **Developer Portal**: Portal for developers
 - **Registry**: ONDC Registry Service
 - **Gateway**: ONDC Gateway Service
