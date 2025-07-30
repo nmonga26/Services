@@ -10,7 +10,7 @@ This repository contains all ONDC service components as shown in the architectur
 - **Developer Portal**: Portal for developers
 - **Registry**: ONDC Registry Service
 - **Gateway**: ONDC Gateway Service
-- **NO**: Network Operations
+- **NO**: Network Observability
 
 ### Data Services
 - **Open Data**: Open data access services
