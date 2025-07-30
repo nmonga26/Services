@@ -1,6 +1,0 @@
-[submodule "Portal-Frontend/biap-app-ui-front"]
-	path = Portal-Frontend/biap-app-ui-front
-	url = https://github.com/ONDC-Official/biap-app-ui-front.git
-[submodule "Portal-Backend/biap-client-node-js"]
-	path = Portal-Backend/biap-client-node-js
-	url = https://github.com/ONDC-Official/biap-client-node-js.git
