@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development
+      - DB_URL=mongodb://mongodb:27017/auth
+
+  registry-service:
+    build: ./registry-service
+    ports:
+      - "3002:3000"
+    environment:
+      - NODE_ENV=development
+      - DB_URL=mongodb://mongodb:27017/registry
+
+  gateway-service:
+    build: ./gateway-service
+    ports:
+      - "3003:3000"
+    environment:
+      - NODE_ENV=development
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
